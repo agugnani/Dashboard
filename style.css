@@ -1,0 +1,112 @@
+/* Font file CSS */
+@import "Fonts/fonts.css";
+
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'DM Sans Regular';
+  font-weight: normal;
+  font-style: normal;
+  background-color: #1c1d22;
+}
+
+p {
+  font-size: 1rem;
+}
+
+p, h1, h2 {
+  color: rgba(255, 255, 255, .9);
+  letter-spacing: 0.4px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+/* Grid Classes */
+.grid {
+  display: grid;
+}
+
+.align-between {
+  align-content: space-between;
+}
+
+/* Flex Classes */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+/* Reusable Classes */
+.margin-auto {
+  margin: 0 auto;
+}
+
+/* Sections */
+main {
+  padding: 30px 40px 50px;
+}
+
+.welcome {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
+}
+
+.cards {
+  background-color: rgba(255, 255, 255, .09);
+  min-height: 100px;
+  border-radius: 6px;
+  padding: 20px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.numeric {
+  font-size: 1.75rem;
+}
+
+.cards li {
+  list-style-type: none;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon-shadow {
+  position: absolute;
+  top: -5px;
+  left: -6px;
+}
