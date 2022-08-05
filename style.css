@@ -89,8 +89,12 @@ main {
   background-color: rgba(255, 255, 255, .09);
   min-height: 100px;
   border-radius: 6px;
-  padding: 20px 25px;
+  padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cards .title {
+  font-size: .875rem;
 }
 
 .numeric {
@@ -105,7 +109,7 @@ main {
   position: relative;
 }
 
-.icon svg.dash-icons {
+.icon svg.dash-icon {
   width: 57px;
   height: 25px;
 }
@@ -114,4 +118,14 @@ main {
   position: absolute;
   top: -5px;
   left: -6px;
+}
+
+.status {
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  margin: 15px 0 0;
+}
+
+.status .subtitle {
+  font-size: .75rem;
 }
