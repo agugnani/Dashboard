@@ -75,22 +75,27 @@ h2 {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Sections */
 main {
   padding: 30px 40px 50px;
+  max-width: 944px;
+  margin: 0 auto;
 }
 
 .welcome {
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 1200px;
-  grid-gap: 15px;
+  grid-gap: 18px;
 }
 
 .cards {
   background-color: rgba(255, 255, 255, .09);
   min-height: 100px;
   border-radius: 6px;
-  padding: 20px;
+  padding: 12px 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -124,9 +129,15 @@ main {
 .status {
   width: 100%;
   grid-template-columns: 1fr 1fr;
-  margin: 15px 0 0;
+  margin: 12px 0 0;
 }
 
 .status .subtitle {
   font-size: .75rem;
 }
+
+.phases li {
+  list-style-type: none;
+}
+
+.phases {}
