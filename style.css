@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 body {
@@ -113,10 +113,12 @@ main {
 
 .cards {
   background-color: rgba(255, 255, 255, .09);
+  min-width: 216px;
   min-height: 60px;
   border-radius: 6px;
-  padding: 12px 20px;
+  padding: 12px 22px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  flex: 1;
 }
 
 .cards .title {
@@ -128,18 +130,7 @@ main {
 }
 
 .icon {
-  position: relative;
-}
-
-.icon svg.dash-icon {
-  width: 57px;
-  height: 25px;
-}
-
-.icon-shadow {
-  position: absolute;
-  top: -5px;
-  left: -6px;
+  min-width: 50px;
 }
 
 .status {
@@ -186,13 +177,12 @@ main {
 }
 
 .cards-container {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   padding-top: 20px;
 }
 
 .project-status .cards {
   padding: 12px 14px;
+  min-width: 280px;
 }
 
 .circle {
