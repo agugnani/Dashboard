@@ -70,6 +70,14 @@ h2 {
   align-items: flex-end;
 }
 
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-6 {
+  gap: 6px;
+}
+
 /* Reusable Classes */
 .margin-auto {
   margin: 0 auto;
@@ -82,7 +90,7 @@ h2 {
 /* Sections */
 main {
   padding: 30px 40px 50px;
-  max-width: 944px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -136,8 +144,36 @@ main {
   font-size: .75rem;
 }
 
+.project-status {
+  margin: 45px 0 0;
+}
+
 .phases li {
   list-style-type: none;
+}
+
+.phases li p {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.phases li p:before {
+  content: "\f111";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.phases li:nth-child(1) p:before {
+  color: #6bc265;
+}
+
+.phases li:nth-child(2) p:before {
+  color: #ec8057;
+}
+
+.phases li:nth-child(3) p:before {
+  color: #dfaf64;
 }
 
 .phases {}
